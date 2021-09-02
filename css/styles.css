@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: "Sacramento", cursive;
+  font-size: 5.625em;
+  padding-top: 50px;
+  color: #66bfbf;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  color: #66bfbf;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #11999e;
+}
+a {
+  color: #11999e;
+}
+
+a:hover {
+  color: #EAF6f6;
+}
+
+hr {
+  border: dotted lightgray 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+.top-container {
+  background-color: #eaf6f6;
+  padding-top: 100px;
+  position: relative;
+}
+
+.middle-container {
+  margin-top: 100px 0;
+}
+
+.bottom-container {
+  color: #ffffff;
+  background-color: #66bfbf;
+  padding: 50px 0 20px;
+ 
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.first-skill {
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+.second-skill {
+  width: 20%;
+  float: right;
+  margin-left: 30px;
+}
+
+.profile {
+  width: 50%;
+  margin: 100px auto;
+}
+
+.contact-me {
+  line-height: 2;
+  margin: 100px 0 150px
+}
+
+.btn {
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #66BFBF 5%, #11999E 100%);
+	background-color:#66BFBF;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: "Montserrat";
+	font-size:18px;
+	font-weight:bold;
+  margin-top: 50px;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+
+.footer-link {
+  text-decoration: none;
+  color: #11999e;
+  margin: 10px 20px;
+  font-weight: bold;
+}
+#copy {
+ color: #EAF6f6;
+ font-size: 0.75rem;
+ padding: 20px 0;
+}
